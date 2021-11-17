@@ -1,10 +1,13 @@
 package com.skni.warsztatysghv2.registration;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+@Service
 public class StatusService {
 
     public Status randomStatus() {
